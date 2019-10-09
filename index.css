@@ -1,0 +1,403 @@
+@import url("distt/toolkit.css");
+.body{
+    background-color:  white;
+
+}
+.navbar-position{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.jumbotron{
+    background-image: url(background-5.jpg);
+    background-size: cover;
+    height: 700px;
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #eceeef;
+    border-radius: 0.3rem;
+}
+@media (min-width: 576px) {
+      .jumbotron {
+        padding: 4rem 2rem; } }
+  
+.jumbotron-hr {
+    border-top-color: #d0d5d8; }
+  
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0; }
+#jumbotron-title-font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#jumbotron-line-color{
+    background-color: white;
+    width: 600px;
+    margin-left: 0px;
+}
+.round-border{
+    border-radius: 50px;    
+}
+.navbar-input{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+    outline: none;
+}
+.jumbotron-input{
+    max-width: 750px; 
+}
+.vertical-center{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.card-img-top{
+    height: 200px;
+}
+.card{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border-color: #E8DEDE;
+
+}
+.view-comments-margin{
+    margin-left: 35px;
+    font-size: 12px;
+}
+.view-replies-margin{
+    margin-left: 150px;
+    font-size: 12px;
+    padding-top: 0px;
+}
+.card-body{
+    margin-left: 20px;
+}
+#table-header-name-margins{
+    margin-left: 51px;
+}
+#table-header-volume-margins{
+    margin-left: 0px;
+}
+#table-header-price-margins{
+    margin-left: 0px;
+}
+.table-header-change-margins{
+    margin-left: 0px;
+    font-size: 10px;
+    padding-right: 10px;
+}
+.comments-font-family{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#percent-change-red{
+    color: red;
+}
+#percent-change-green{
+    color: green;
+}
+.buy-attributes{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    padding-top: 2px;
+    outline: none;
+    max-width: 70px;
+    margin-right: 15px;
+}
+.sell-attributes{
+   color: white;
+   font-size: 12px;
+   font-weight: bold;
+   height: 20px;
+   padding-top: 2px;
+   outline: none;
+   max-width: 70px;
+   margin-right: 15px;
+}
+.vote-attributes{
+    font-size: 12px;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+.stick-to-top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0x;
+    z-index: 1;
+}
+#toggleLogin{
+    margin-right: 20px;
+}
+.textarea{
+    border-radius: 10px;
+    border-color: lightgrey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    
+}
+.textareahome{
+    outline: none;
+}
+.post-button{
+        margin-right: 20px;
+        margin-left: 20px;
+}
+.p-button{
+    height: 40px;
+}
+.c-content{
+}
+.card-attributes{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+}
+#commentSuccess{
+    display: none;
+}
+#commentFail{
+    display: none;
+}
+.displayNone{
+    display: none;
+}
+.reply-attributes{
+    padding-left: 100px;
+}
+.card-header{
+    font-size: 12px;
+    padding-top: 10px;
+}
+.popup {
+    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    width: 125px;
+    
+}
+.red{
+    color: red;
+}
+.p{
+    white-space: pre-wrap;
+    
+}
+.hiddenforlogin{
+    display: none;
+}
+#comment-tab{
+    color: gray;
+    font-weight: bold;
+}
+#comment-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#comment-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#upvote-tab{
+    color: gray;
+    font-weight: bold;
+}
+#upvote-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#upvote-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#buyvote-tab{
+    color: gray;
+    font-weight: bold;
+}
+#buyvote-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#buyvote-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#sellvote-tab{
+    color: gray;
+    font-weight: bold;
+}
+#sellvote-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#sellvote-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#following-tab{
+    color: gray;
+    font-weight: bold;
+}
+#following-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#following-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#followers-tab{
+    color: grey;
+    font-weight: bold;
+}
+#followers-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#followers-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#history-tab{
+    color: grey;
+    font-weight: bold;
+}
+#history-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#history-tab.active{
+    background-color: transparent;
+    color: black;
+}
+.table-font-size{
+    font-size: 9px;
+}
+@media( max-width: 1140px){
+    .fix-width{
+        min-width: 800px;
+    }
+}
+.fix-width{
+    width: 100%;
+}
+#yesterday-tab{
+    color: grey;
+    font-weight: bold;
+}
+#yesterday-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#yesterday-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#lastweek-tab{
+    color: grey;
+    font-weight: bold;
+}
+#lastweek-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#lastweek-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#lastmonth-tab{
+    color: grey;
+    font-weight: bold;
+}
+#lastmonth-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#lastmonth-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#currentyear-tab{
+    color: grey;
+    font-weight: bold;
+}
+#currentyear-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#currentyear-tab.active{
+    background-color: transparent;
+    color: black;
+}
+#lastyear-tab{
+    color: grey;
+    font-weight: bold;
+}
+#lastyear-tab:hover{
+    background-color: transparent;
+    color: black;
+}
+#lastyear-tab.active{
+    background-color: transparent;
+    color: black;
+}
+.navbar-default .navbar-nav > .active{
+    color: #000;
+}
+.black-font{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+       -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+  
+  .tt-hint {
+    color: #999
+  }
+  
+  .tt-menu {    /* used to be tt-dropdown-menu in older versions */
+    width: 200px;
+    margin-top: 4px;
+    padding: 4px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+            box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+  
+  .tt-suggestion {
+    padding: 3px 20px;
+    line-height: 24px;
+  }
+  
+  .tt-suggestion.tt-cursor,.tt-suggestion:hover {
+    color: #fff;
+    background-color: #0097cf;
+  
+  }
+  
+  .tt-suggestion p {
+    margin: 0;
+  }
+  .font-family{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
