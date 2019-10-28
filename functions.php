@@ -2,7 +2,7 @@
 
     session_start();
 
-    $link = mysqli_connect("localhost", "yousef", "171120101990Qq!", "acrypt");
+    $link = mysqli_connect("localhost", "yousef", "", "acrypt");
 
     if (mysqli_connect_errno()) {
         
